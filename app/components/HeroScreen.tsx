@@ -279,7 +279,7 @@ export default function HeroScreen() {
           Your browser does not support the video tag.
         </video>
         {/* Dynamic Overlay: Darker on mobile for better text legibility */}
-        <div className="absolute inset-0  z-10" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/0 via-black/0 to-black/0 z-10" />
       </div>
 
       {/* 2. Central Narrative Container */}
@@ -329,7 +329,7 @@ export default function HeroScreen() {
             <p className="text-[8px] md:text-[10px] uppercase tracking-widest font-bold text-[#8b735b] mb-1">
               Magnus Headquarters
             </p>
-            <p className="text-[8px] md:text-[10px] tracking-tighter">
+            <p className="text-[8px] md:text-[10px] text-zinc-900 tracking-tighter">
               411019 • PUNE, MAHARASHTRA
             </p>
           </div>
@@ -358,7 +358,7 @@ function SocialIcon({ Icon, href }: { Icon: any; href: string }) {
       target="_blank"
       rel="noopener noreferrer"
       whileHover={{ y: -5, color: "#8b735b" }}
-      className="text-white/50 hover:text-[#8b735b] transition-colors duration-300"
+      className="text-[#8b735b] hover:text-[#8b735b] transition-colors duration-300"
     >
       <Icon className="text-lg md:text-xl" />
     </motion.a>

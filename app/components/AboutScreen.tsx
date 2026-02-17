@@ -366,22 +366,22 @@ import { motion } from "framer-motion";
 const philosophy = [
   {
     title: "THE MAGNUS TRUST",
-    img: "/card1.png",
+    src: "/card1.png",
     desc: "Trust starts with you and ends with us. We believe in delivering what we commit, with complete transparency and honesty.",
   },
   {
     title: "THE MAGNUS EXPERTISE",
-    img: "/card2.png",
+    src: "/card2.png",
     desc: "Backed by 25 years of building excellence, we share our expertise with the world to make a lasting impact.",
   },
   {
     title: "THE MAGNUS QUALITY",
-    img: "/card3.png",
+    src: "/card3.png",
     desc: "We only build the highest quality structures that stand the test of time and instill quality in all our creations.",
   },
   {
     title: "THE MAGNUS FOCUS",
-    img: "/card4.png",
+    src: "/card4.png",
     desc: "We're always looking ahead to embrace innovations and ideations that will make a difference in every life.",
   },
 ];
@@ -452,7 +452,7 @@ export default function AboutScreen() {
                 {/* Icon Container */}
                 <div className="w-32 h-32 md:w-40 md:h-40 mb-6 flex items-center justify-center filter drop-shadow-md group-hover:drop-shadow-xl transition-all duration-500">
                   <img
-                    src={item.img}
+                    src={item.src}
                     alt={item.title}
                     className="w-full h-full object-contain filter grayscale group-hover:grayscale-0 transition-all duration-700"
                   />
