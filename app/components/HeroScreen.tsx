@@ -275,7 +275,7 @@ export default function HeroScreen() {
           className="h-full w-full object-cover grayscale-[0.2]"
         >
           {/* Ensure your video is in public/hero-video.mp4 */}
-          <source src="/magnus 4.mp4" type="video/mp4" />
+          <source src="/Magnus 4.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         {/* Dynamic Overlay: Darker on mobile for better text legibility */}
