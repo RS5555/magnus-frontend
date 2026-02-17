@@ -279,7 +279,7 @@ export default function HeroScreen() {
           Your browser does not support the video tag.
         </video>
         {/* Dynamic Overlay: Darker on mobile for better text legibility */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/90 z-10" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/30 z-10" />
       </div>
 
       {/* 2. Central Narrative Container */}
