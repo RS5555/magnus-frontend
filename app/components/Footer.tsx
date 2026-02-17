@@ -123,14 +123,14 @@ export default function Footer() {
               RERA Reg: P521000XXXXX
             </p> */}
           </div>
-          <div className="flex items-center gap-2">
+          {/* <div className="flex items-center gap-2">
             <span className="text-[10px] text-zinc-600 uppercase tracking-widest">
               Designed by
             </span>
             <span className="text-[10px] text-[#8b735b] font-bold tracking-widest uppercase">
               Developer Savant
             </span>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
