@@ -366,22 +366,22 @@ import { motion } from "framer-motion";
 const philosophy = [
   {
     title: "THE MAGNUS TRUST",
-    src: "/card1.png",
+    src: "/Card1.png",
     desc: "Trust starts with you and ends with us. We believe in delivering what we commit, with complete transparency and honesty.",
   },
   {
     title: "THE MAGNUS EXPERTISE",
-    src: "/card2.png",
+    src: "/Card2.png",
     desc: "Backed by 25 years of building excellence, we share our expertise with the world to make a lasting impact.",
   },
   {
     title: "THE MAGNUS QUALITY",
-    src: "/card3.png",
+    src: "/Card3.png",
     desc: "We only build the highest quality structures that stand the test of time and instill quality in all our creations.",
   },
   {
     title: "THE MAGNUS FOCUS",
-    src: "/card4.png",
+    src: "/Card4.png",
     desc: "We're always looking ahead to embrace innovations and ideations that will make a difference in every life.",
   },
 ];
