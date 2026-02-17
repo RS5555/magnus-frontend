@@ -33,7 +33,7 @@ export default function Footer() {
                 Magnificent World
               </p>
             </div>
-            <p className="text-sm text-zinc-400 font-extrabold leading-relaxed">
+            <p className="text-sm text-white/90 font-extrabold leading-relaxed">
               25 Years. One Location. Infinite Trust.
             </p>
 
@@ -43,10 +43,10 @@ export default function Footer() {
               your future.
             </p>
             <div className="flex gap-5">
-              <SocialLink Icon={FaInstagram} href="#" />
-              <SocialLink Icon={FaFacebookF} href="#" />
-              <SocialLink Icon={FaLinkedinIn} href="#" />
-              <SocialLink Icon={FaYoutube} href="#" />
+              <SocialLink Icon={FaInstagram} href="/" />
+              <SocialLink Icon={FaFacebookF} href="/" />
+              <SocialLink Icon={FaLinkedinIn} href="/" />
+              <SocialLink Icon={FaYoutube} href="/" />
             </div>
           </div>
 
@@ -86,7 +86,7 @@ export default function Footer() {
               <li className="flex items-center gap-4 group">
                 <FaEnvelope className="text-[#8b735b] shrink-0" />
                 <span className="text-sm text-zinc-400 font-light group-hover:text-white transition-colors">
-                  info@magnuscorp.in
+                  enquiriesmagnus@gmail.com
                 </span>
               </li>
             </ul>
@@ -100,7 +100,7 @@ export default function Footer() {
             <p className="text-sm text-zinc-500 font-light mb-6">
               Subscribe to stay updated with our upcoming landmarks.
             </p>
-            <div className="relative">
+            {/* <div className="relative">
               <input
                 type="email"
                 placeholder="Email Address"
@@ -109,7 +109,7 @@ export default function Footer() {
               <button className="absolute right-0 top-1/2 -translate-y-1/2 text-[#8b735b] text-xs uppercase font-bold tracking-widest hover:text-white transition-colors">
                 Join
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
 

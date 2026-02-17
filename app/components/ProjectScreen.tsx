@@ -399,7 +399,7 @@ export default function ProjectScreen() {
           alt="Magnus Background"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-white/70" />
+        {/* <div className="absolute inset-0 bg-white/70" /> */}
       </div>
 
       <div className="relative max-w-[1400px] mx-auto flex flex-col lg:flex-row gap-10 lg:gap-16">
@@ -424,8 +424,8 @@ export default function ProjectScreen() {
                 onClick={() => setActiveIdx(idx)} // Crucial for mobile
                 className={`flex-shrink-0 w-[80%] sm:w-[60%] lg:w-full text-left py-4 lg:py-6 px-6 lg:px-8 transition-all duration-500 rounded-sm flex items-center justify-between group snap-center ${
                   activeIdx === idx
-                    ? "bg-white lg:bg-zinc-50 border-l-4 border-[#8b735b] shadow-lg lg:shadow-none"
-                    : "bg-white/50 lg:bg-transparent border-l-4 border-transparent"
+                    ? "  border-l-4 border-[#8b735b] shadow-lg lg:shadow-none"
+                    : "  border-l-4 border-transparent"
                 }`}
               >
                 <div className="space-y-1">
